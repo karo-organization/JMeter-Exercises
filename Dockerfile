@@ -22,5 +22,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 COPY . ./
 
 
+
+
 # Start the server
 CMD ["npm","start"]
